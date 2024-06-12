@@ -29,5 +29,5 @@ def predict():
     return str(result[0][0])
 
 if __name__=='__main__':
-    app.run(debug=True, port=7778, host='0.0.0.0')
+    app.run(debug=True, port=7774, host='0.0.0.0')
 
