@@ -28,7 +28,7 @@ Also, we change our workdir, then we run command inside our docker container to 
 ## Link to the Postman to predict prices
 Here is the link - [Go to the Postman](https://web.postman.co/workspace/My-Workspace~7f2023db-b996-436d-8f8d-7a35da738daa/request/36187768-2dcc6883-f0ae-49f1-875d-7e4c846e2e77)  
 The port that is used is 7774
-![alt text](<Pictures/Fiil the line.png>)
+![alt text](Pictures/Postman.png)
 
 Then you should press send in order to see the price
 
