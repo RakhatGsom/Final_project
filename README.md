@@ -5,8 +5,7 @@
 ## Information of statistics
 
 Firstly, I cleaned data and dropped unnecessary columns to get cleaned dataset. Then, I shuffled the data to train and test:
-
-![alt text](<Pictures/Shuffled data.png>)
+![alt text](Pictures/Shuffle.png)
 
 I used several models like:
 - Decison tree
@@ -42,15 +41,15 @@ Here is the link - [Go to the Postman](https://web.postman.co/workspace/My-Works
 
 In the beginning you should indicate the SSH of your VM.
 In the 'Key' column type the parameters such as:
-- open_plan
+- floor
 - rooms
-- area
+- living_area
 - renovation
 
 'Value' indicate based on your preferences
 
-The port that is used is 7774
-![alt text](Pictures/Postman.png)
+The port that is used is 7775
+![alt text](Pictures/Postman.1.png)
 
 Then you should press send in order to see the price
 
