@@ -15,12 +15,12 @@ sc_y=joblib.load(SCALER_Y_PATH)
 
 def predict():
     args=request.args
-    open_plan=args.get('open_plan',default=-1, type=int)
+    floor=args.get('floor',default=-1, type=int)
     rooms=args.get('rooms', default=-1, type=int)
-    area=args.get('area',default=-1, type=float)
+    living_area=args.get('Living_area',default=-1, type=float)
     renovation =args.get('renovation', default=-1, type=int)
 
-    x= numpy.array([open_plan,rooms, area, renovation]).reshape(1,-1)
+    x= numpy.array([floor,rooms, living_area, renovation]).reshape(1,-1)
     x=sc_x.transform(x)
 
     result=model.predict(x)
@@ -29,5 +29,5 @@ def predict():
     return str(result[0][0])
 
 if __name__=='__main__':
-    app.run(debug=True, port=7774, host='0.0.0.0')
+    app.run(debug=True, port=7775, host='0.0.0.0')
 
