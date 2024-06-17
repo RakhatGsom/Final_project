@@ -27,7 +27,7 @@ source .env/bin/activate
 ```
 *Instead of 'env' use the name that you have for your vitual environment
 ## Info about Dockerfile
-![alt text](Pictures/Docker.png)
+![alt text](Pictures/Docker...png)
 
 The first line provides info about basic image and I used ubuntu with version 20.04. 
 Maintainer is me (Rakhat).
@@ -63,4 +63,4 @@ And then:
 ```
 docker run --network host -d rakhatgsom/gsom_e2e24:v.0.1
 ```
-Then go to the Postman and use the same port (7774)
+Then go to the Postman and use the same port (7775)
